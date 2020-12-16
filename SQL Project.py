@@ -13,12 +13,12 @@ db_connection = mysql.connector.connect(
 )
 
 db_cursor = db_connection.cursor()
-#########################################################################################
-#                                                                                       #
-#                           REPORTING                                                   #
-#                  Written By: Amit Hiremath @Amgit2                                    #
-#                                                                                       #
-#########################################################################################
+#######################################################################
+#                                                                     #
+#                           REPORTING                                 #
+#                  Written By: Amit Hiremath @Amgit2                  #
+#                                                                     #
+#######################################################################
 
 def reportTerList():
     db_cursor.execute("SELECT territory.TNUM, territory.TNAME,\
